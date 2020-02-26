@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="img/droga-raia-logo.png" width="200px" alt="logo" title="logo">
+            <div class="button">
+                <button id="volta" type="button"> Voltar</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1>Dados para compra:</h1>
+        </div>
+        <form id="formulario" method="post">
+            <div class="crmMed">
+                <label for="crm">CRM do Médico</label>
+                <input id="crm" type="text" placeholder="CRM" name="crm" required>
+            </div>
+            <div class="nomeMedico">
+                <label for="nomeMedic">Nome do Médico:</label>
+                <input id="nomeMedic" type="text" name="nomeMedic" placeholder="Nome do Médico" required>
+            </div>
+            <div class="dataReceita">
+                <label for="dataRece">Data da Receita:</label>
+                <input id="dataRece" type="date" name="dataRece" placeholder="Data da Receita" required>
+            </div>
+            <div class="qtdCaixas">
+                <label for="qtdCaix">Quantidade de caixas:</label>
+                <input id="qtdCaix" type="number" name="qtdCaix" placeholder="Quantidade" required>
+            </div>
+            <div class="nomePaciente">
+                <label for="nomePacie">Nome do Paciente:</label>
+                <input id="nomePacie" type="text" name="nomePacie" placeholder="Nome do Paciente" required>
+            </div>
+            <div class="cpfPaciente">
+                <label for="cpf">CPF do Paciente:</label>
+                <input id="cpf" type="text" name="cpf" placeholder="CPF do Paciente" required>
+            </div>
+            <div class="dataNasc">
+                <label for="dn">Data de Nascimento:</label>
+                <input id="dn" type="date" name="dn" placeholder="Data Nasc." required>
+            </div>
+            <div class="sexo">
+                <label for="sexoPaciente">Sexo do paciente:</label>
+                <select d id="sexoPaciente">
+                    <option selected disabled>Selecione</option>
+                    <option>
+                        Feminino
+                    </option>
+                    <option>
+                        Masculino
+                    </option>
+                </select>
+            </div>
+            <div class="tipoDeEnvio">
+                <label for="envio">Tipo de envio:</label>
+                <select d id="envio">
+                    <option selected disabled>Selecione</option>
+                    <option value="rapido">
+                        Rápido: R$10,00
+                    </option>
+                    <option value="normal">
+                        Normal: Grátis
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="arquivo">Envio da Receita</label>
+                <select class="arquivo">
+                    <option selected disabled>Selecione</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="anexo">Anexo</option>
+                    <option value="email">E-mail</option>
+                </select>
+            </div>
+            <div class="finaliza">
+                <button id="finalizar" type="submit">Finalizar</button>
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

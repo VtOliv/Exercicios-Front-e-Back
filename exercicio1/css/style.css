@@ -1,0 +1,65 @@
+#navbar{
+    background-color: rgb(113, 170, 199);
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    box-shadow: black 1px 2px 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#volta {
+    margin-bottom: 10px;
+    margin-right: 4px;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+input, select {
+    padding: 6px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 4px;
+    margin-bottom: 8px;
+    border-style: groove;
+}
+
+#formulario {
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 50vw;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+    box-shadow: black 1px 2px 10px;
+}
+
+.titulo {
+    width: 50vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgb(114, 145, 207);
+    color: white;
+    border: 1px black solid;
+    box-shadow: black 1px 2px 10px;
+}
+
+label {
+    margin-left: 4px;
+}
+
+#finalizar {
+    width: 90%;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 5px;
+}
